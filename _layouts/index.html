@@ -4,15 +4,21 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <!-- 加入css -->
 </head>
+
 <body>
-    <div class="container">
+    <div class="header">
         <nav>
-            <a href="{{ site.baseurl }}/">Index</a>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/">Buildings</a><!-- 下拉菜单和超链接 -->
             <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/search">Search</a>
         </nav>
     </div>
-    <div class="container">
+
+    <!-- 首页预览部分 -->
+    <div class="content">
         {{ content }}
     </div>
 </body>
