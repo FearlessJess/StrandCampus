@@ -1,2 +1,2 @@
 # StrandCampus
-An archive about the history of buildings in King's Strand campus. Target at all people who are interested in King's. 
+An archive about the history of buildings in King's Strand campus, targeting at all people who are interested in King's College London. Learn more about Strand Building, King's Building, Roman Bath, St Mary Le Strand Church, Somerset House East Wing, Bush House and Maughan Library here to understand the general history and hidden facts behind the scene.This website is created with Jekyll for learning purpose.

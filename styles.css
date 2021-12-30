@@ -1,0 +1,15 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#footer {
+    margin: auto;
+    text-align:center;
+
+}
+
+#footer p {
+    font-size: small;
+    align-self: center;
+}

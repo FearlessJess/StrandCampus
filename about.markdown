@@ -4,5 +4,4 @@ layout: index
 permalink: /about/
 ---
 
-This is the about page of the website. 
-(to put some brief introductions of our project)
+An archive about the history of buildings in King's Strand campus, targeting at all people who are interested in King's College London. You can find information about Strand Building, King's Building, Roman Bath, St Mary Le Strand Church, Somerset House East Wing, Bush House and Maughan Library here to understand the general history and hidden facts behind the scene.
