@@ -1,11 +1,9 @@
-
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 #footer {
     margin: auto;
     text-align:center;
+    color: gray;
+    font-style: italic;
+    font-weight: lighter;
 
 }
 

@@ -4,7 +4,7 @@ layout: king's
 history: strand campus is the biggest campus at King's and
 architecture: architectural text
 function: function text
-image-url1: image url from flickr
+image-url1: https://flic.kr/p/2mUqU45
 image-url2:
 image-url3:
 image-title1:
