@@ -5,8 +5,7 @@ layout: index
  
  <br />
 <div id= "introduction">
-This is a simple historical archive about the buildings in strand campus, King's College London. 
-Brief history stories, architecture style and current function about these building can be found here, giving you a general understanding about King's strand campus.  
+This is a simple historical archive about the buildings in strand campus, King's College London. Brief history stories, architecture style and current function about these building can be found here, a good site for anyone who is interested in King's.  
 </div>
  <br />
 
