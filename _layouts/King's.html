@@ -8,7 +8,7 @@
 </head>
 
 <body>
-        <!-- 导航栏 -->
+      
         <div id="header">
             <nav>
                 <a href="{{ site.baseurl }}/">Home</a>
@@ -19,7 +19,36 @@
         </div>
 
         <div id = "content">
-            <!-- 每个建筑页面的内容布局 -->
+            <h1>{{ page.title }}</h1>
+            <br />
+            <img src = "{{ page.image-url1 }}" id = "king's">
+
+            <h2> History </h2>
+            {{ page.history}}
+
+            <h2> Architecutre </h2>
+            {{ page.architecture}}
+
+            <h3> Strand Building</h3>
+            {{ page.Strand Building}}
+
+            <h3> Great Hall</h3>
+            {{ page.Great Hall }}
+
+            <h3> Old Entrance Hall</h3>
+            {{ page.Old Entrance Hall }}
+
+            <h3> Collge Chapel</h3>
+            {{ page.Collge Chapel }}
+
+            <h3> Council Room </h3>
+            {{ page.Council Room }}
+
+            <h2> Current Function</h2>
+            {{ function }}
+
+
+
         </div>
         
         <br />
