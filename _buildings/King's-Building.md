@@ -2,6 +2,8 @@
 title: King's Building
 layout: King's
 image-url1: https://live.staticflickr.com/65535/51789143490_d13d8f5d3c_h.jpg
+creator: Wen Bai
+# 每个版块的作者
 
 history: strand campus is the biggest campus at King's.
 architecture:  Actually, King's Building is directly connected with Strand Building.

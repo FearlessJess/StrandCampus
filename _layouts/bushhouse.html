@@ -22,10 +22,30 @@
         
         <div id = "content">
             <!-- 每个建筑页面的内容布局 -->
+            {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
+            <img src = "{{ page.image-url1 }}" id = "entrance">
+            <p>{{ page.image-title1 }}</p>
+
+            <p>{{ page.architecture }}</p>
+            <img src = "{{ page.image-url2 }}" id = "statue">
+            <p>{{ page.image-title2 }}</p>
+
+            <p>{{ page.history }}</p>
+            <img src = "{{ page.image-url3 }}" id = "eagle">
+            <p>{{ page.image-title3 }}</p>
+            <img src = "{{ page.image-url4 }}" id = "bbc">
+            <p>{{ page.image-title4 }} by Spudgun67</p>
+            <p><a href="{{ licence_url4.url }}">{{ page.licence4 }}</a></p>
+            
+
+            <p>{{ page.function }}</p>
+            <img src = "{{ page.image-url5 }}" id = "courtyard">
+            <p>{{ page.image-title5 }}</p>
+
+            <p>Tags: {{ page.tags }}</p>
         </div>
 
         <!--和老师一样增加了copyright之类的尾注-->
-        <br />
         <div id = "footer">
             <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
         </div>
