@@ -10,10 +10,22 @@
 
 <body>
         <div class="header">
-            <nav>
-                <a href="{{ site.baseurl }}/">Home</a>
-                <a href="{{ site.baseurl }}/about">About</a>
-                <a href="{{ site.baseurl }}/search">Search</a>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="{{ site.baseurl }}/">Home</a> </li>
+                    <li> 
+                        <a href="#">Buildings</a>
+                        <div class="sub">
+                            <ul>
+                                <li> <a href="{{ site.baseurl }}/buildings/Bush-House">Bush House</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/King's-Building">King's Building</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/Maughan-Library">Maughan Library</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/Somerset-House-East-Wing">Somerset House East Wing</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="{{ site.baseurl }}/about">About</a></li>
+                    <li> <a href="{{ site.baseurl }}/search">Search</a>
             </nav>
         </div>
      
