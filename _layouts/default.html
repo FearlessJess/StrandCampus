@@ -1,0 +1,23 @@
+---
+---
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/CSS/maughan.css">
+</head>
+<body>
+
+        <!-- 导航栏 -->
+        <div id="header">
+            <nav>
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/">Buildings</a> <!-- 下拉菜单和超链接 -->
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
+        </div>
+
+        {{ content }}
+
+</body>

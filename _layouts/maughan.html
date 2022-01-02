@@ -1,24 +1,8 @@
 ---
+layout: default
 ---
 
-
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <!-- 建了个文件夹，已链接 -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/CSS/maughan.css">
-</head>
-
 <body>
-        <!-- 导航栏 -->
-        <div id="header">
-            <nav>
-                <a href="{{ site.baseurl }}/">Home</a>
-                <a href="{{ site.baseurl }}/">Buildings</a> <!-- 下拉菜单和超链接 -->
-                <a href="{{ site.baseurl }}/about">About</a>
-                <a href="{{ site.baseurl }}/search">Search</a>
-            </nav>
-        </div>
         
         <div id = "content">
             <!-- 每个建筑页面的内容布局 -->
@@ -40,7 +24,7 @@
             <img src = "{{ page.image-url6 }}" class = "image">
             <p class = "title">{{ page.image-title6 }} </p>
 
-            <p>Tags: {{ page.tags | sort | join: ", " }}</p>
+            <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | sort | join: ", " }}</p>
 
         </div>
 
