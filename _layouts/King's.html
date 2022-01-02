@@ -13,7 +13,6 @@
         <div id="header">
             <nav>
                 <a href="{{ site.baseurl }}/">Home</a>
-                <a href="{{ site.baseurl }}/">Buildings</a> <!-- 下拉菜单和超链接 -->
                 <a href="{{ site.baseurl }}/about">About</a>
                 <a href="{{ site.baseurl }}/search">Search</a>
             </nav>
@@ -23,36 +22,43 @@
             <h1>{{ page.title }}</h1>
             <br />
             <img src = "{{ page.image-url1 }}" id = "king's">
-
             <h2> History </h2>
             {{ page.history}}
 
-            <h2> Architecutre </h2>
+            <h2> Architecture </h2>
             {{ page.architecture}}
 
-            <h3> Strand Building</h3>
+            <h3> Strand Entrance</h3>
             {{ page.Strand Building}}
-
-            <h3> Great Hall</h3>
-            {{ page.Great Hall }}
 
             <h3> Old Entrance Hall</h3>
             {{ page.Old Entrance Hall }}
+            
+            <a href=" https://kingscollections.org/exhibitions/archives/the-mond-bequest/mond-bequest-sculpture/sappho">Sappho by Ferdinand Seeboeck (Vienna 1864-Rome 1952)
+            </a>
 
-            <h3> Collge Chapel</h3>
+            <a href=" https://kingscollections.org/exhibitions/archives/the-mond-bequest/mond-bequest-sculpture/sophocles">   Sophocles by Constantin Dausch (Bad Waldsee 1841-Rome 1908)</a>>
+            
+        
+   
+            
+            <h3> Great Hall</h3>
+            {{ page.Great Hall }}
+
+            <h3> The Chapel</h3>
             {{ page.Collge Chapel }}
 
             <h3> Council Room </h3>
             {{ page.Council Room }}
 
             <h2> Current Function</h2>
-            {{ function }}
+            {{ page.function }}
 
             <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags }}</p>
 
         </div>
         
-        <!-- br 不知道是什么意思，但格式不对。先删啦 -->
+
         <div id = "footer">
             <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
         </div>
