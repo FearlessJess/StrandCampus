@@ -1,11 +1,39 @@
-
-
 body {
-    background-color: rgb(255, 255, 255);
-    font-size: large;
-    color: black;
-    font-weight: bold;
+    background-color: goldenrod;
 }
+
+/* navigate bar */
+nav{
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+/* link */
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+
+#introduction p {
+    font-family: sans-serif;
+}
+
+
+
+/* preview image */
+.gallery_thumb{
+    width: 300px;
+    object-fit: cover;
+}
+
 
 #footer {
     margin: auto;
