@@ -1,0 +1,16 @@
+---
+---
+[
+  {% for building in site.buildings %}
+    {
+
+      "title"    : "{{ building.title }}",
+      "url"      : "{{ site.baseurl }}{{ building.url }}",
+      "tags"     : "{{ building.tags }}",
+      "history"     : "{{ building.history }}",
+      "arquitecture"     : "{{ building.arquitecture }}",
+      "function"     : "{{ building.function }}"
+
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
