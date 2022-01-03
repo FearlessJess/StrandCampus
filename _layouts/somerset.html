@@ -1,29 +1,15 @@
 ---
+layout: default
 ---
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/CSS/somerset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-
 
 <body>
- 
-    <div id="header">
-        <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/search">Search</a>
-        </nav>
-    </div>
 
     <div id = "content">
         <h1>{{ page.title }}</h1>
             <br />
             <img src = "{{ page.image-url1 }}" id = "somerset cover">
 
+            <div id="history">
             <h2> History </h2>
             {{ page.history}}
 
