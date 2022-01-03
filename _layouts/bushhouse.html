@@ -13,34 +13,61 @@
 <body>
         <!-- 导航栏 -->
         <div id="header">
-            <nav>
-                <a href="{{ site.baseurl }}/">Home</a>
-                <a href="{{ site.baseurl }}/about">About</a>
-                <a href="{{ site.baseurl }}/search">Search</a>
-            </nav>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="{{ site.baseurl }}/">Home</a> </li>
+                    <li> 
+                        <a href="#">Buildings</a>
+                        <div class="sub">
+                            <ul>
+                                <li> <a href="{{ site.baseurl }}/buildings/Bush-House">Bush House</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/King's-Building">King's Building</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/Maughan-Library">Maughan Library</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/Somerset-House-East-Wing">Somerset House East Wing</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="{{ site.baseurl }}/about">About</a></li>
+                    <li> <a href="{{ site.baseurl }}/search">Search</a>
+            </nav> 
         </div>
         
+
+        <!-- 每个建筑页面的内容布局 -->
         <div id = "content">
-            <!-- 每个建筑页面的内容布局 -->
             {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
-            <img src = "{{ page.image-url1 }}" id = "entrance">
-            <p>{{ page.image-title1 }}</p>
+        
+            <div id="entrance">
+                <img src = "{{ page.image-url1 }}">
+                <p>{{ page.image-title1 }}</p>
+            </div>
 
             <p>{{ page.architecture }}</p>
-            <img src = "{{ page.image-url2 }}" id = "statue">
-            <p>{{ page.image-title2 }}</p>
+                
+            <div id="statue">
+                <img src = "{{ page.image-url2 }}">
+                <p>{{ page.image-title2 }}</p>
+            </div>
 
             <p>{{ page.history }}</p>
-            <img src = "{{ page.image-url3 }}" id = "eagle">
-            <p>{{ page.image-title3 }}</p>
-            <img src = "{{ page.image-url4 }}" id = "bbc">
-            <p>{{ page.image-title4 }} by Spudgun67 <a href="{{ licence_url4.url }}"> {{ page.licence4 }}</a></p>
-            
+
+            <div id="eagle">
+                <img src = "{{ page.image-url3 }}">
+                <p>{{ page.image-title3 }}</p>
+            </div>
+
+            <div id="bbc">
+                <img src = "{{ page.image-url4 }}">
+                <p>{{ page.image-title4 }} by Spudgun67 <a href="{{ licence_url4.url }}"> {{ page.licence4 }}</a></p>
+            </div>
 
             <p>{{ page.function }}</p>
-            <img src = "{{ page.image-url5 }}" id = "courtyard">
-            <p>{{ page.image-title5 }}</p>
 
+            <div id="courtyard">
+                <img src = "{{ page.image-url5 }}">
+                <p>{{ page.image-title5 }}</p>
+            </div>
+    
             <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags }}</p>
         </div>
 
