@@ -158,7 +158,7 @@ img {
 
 
 #footer {
-    margin: auto;
+    margin-top: 5%;
     text-align:center;
     color: gray;
     font-style: italic;
@@ -167,6 +167,6 @@ img {
 }
 
 #footer p {
-    font-size: small;
+    font-size: large;
     align-self: center;
 }
