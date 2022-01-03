@@ -7,45 +7,55 @@ layout: default
 
 <body>
         <!-- 每个建筑页面的内容布局 -->
-        <div class = "content">
+        <div id = "content">
+            <h1>{{ page.title }}</h1><br>
             {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
         
             <div id="entrance">
-                <img src = "{{ page.image-url1 }}">
+                <img src = "{{ page.image-url1 }}" title="{{ page.image-title1 }}">
                 <p class="title_text">{{ page.image-title1 }}</p>
             </div>
 
+            <br>
             <p class="body_text">{{ page.architecture }}</p>
-                
+            
+            <br><br>
             <div id="statue">
-                <img src = "{{ page.image-url2 }}">
+                <img src = "{{ page.image-url2 }}" title="{{ page.image-title2 }}">
                 <p class="title_text">{{ page.image-title2 }}</p>
             </div>
 
+            <br>
             <p class="body_text">{{ page.history }}</p>
 
+            <br><br>
             <div id="eagle">
-                <img src = "{{ page.image-url3 }}">
+                <img src = "{{ page.image-url3 }}" title="{{ page.image-title3 }}">
                 <p class="title_text">{{ page.image-title3 }}</p>
             </div>
 
+            <br>
             <div id="bbc">
-                <img src = "{{ page.image-url4 }}">
+                <img src = "{{ page.image-url4 }}" title="{{ page.image-title4 }}">
                 <p class="title_text">{{ page.image-title4 }} by Spudgun67 <a href="{{ licence_url4.url }}"> {{ page.licence4 }}</a></p>
             </div>
 
+            <br><br>
             <p class="body_text">{{ page.function }}</p>
 
+            <br>
             <div id="courtyard">
-                <img src = "{{ page.image-url5 }}">
+                <img src = "{{ page.image-url5 }}" title="{{ page.image-title5 }}">
                 <p class="title_text">{{ page.image-title5 }}</p>
             </div>
 
-
-            <p>Reference:<br>
-            {{ page.reference }}
-            </p>
-
+            <br><br>
+            <ul>Reference
+            <li>{{ page.reference1 }}</li>
+            <li>{{ page.reference2 }}</li>
+            <li>{{ page.reference3 }}</li>
+            </ul>
+            <br>
             <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags }}</p>
         </div>
 

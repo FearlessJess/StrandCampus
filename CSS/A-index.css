@@ -26,6 +26,7 @@ nav{
     width   : auto;
 }
 
+/* nav bar button before hover */
 .menu>ul>li>a {
     display: block;
     text-align: center;
@@ -42,6 +43,7 @@ nav{
 
 }
 
+/* nav bar button after hover */
 .menu>ul>li:hover>a {
     box-shadow: 0px 5px 10px 0px red;
 
@@ -61,6 +63,7 @@ nav{
     height: auto;
 }
 
+
 .sub>ul {
     list-style: none;
     transform: translateY(-100%);
@@ -79,6 +82,8 @@ nav{
     border-bottom: none;
 }
 
+
+/* dropdown menu button before hover */
 .sub>ul>li>a {
     display: block;
     background-color:rgba(255, 0, 0, 0.131);
@@ -94,6 +99,7 @@ nav{
 
 }
 
+/* dropdown menu button after hover */
 .sub>ul>li>a:hover{
     background-color: grey;
 }
@@ -103,17 +109,19 @@ a:link {
 }
 
 a:visited {
-    color: black;
+    color: blue;
 }
 
 a:hover {
-    color: white;
+    color: rgb(99, 87, 87);
 }
 
 
 /* preview div */
 #gallery {
-    margin: auto;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 19%;
     display: grid;
     grid-gap: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -124,8 +132,8 @@ a:hover {
 /* preview image */
 .grid_cell {
     align-self: baseline;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
     display: block;
