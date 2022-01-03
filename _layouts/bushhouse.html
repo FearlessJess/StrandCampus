@@ -1,61 +1,51 @@
 ---
+layout: default
 ---
 
 
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <!-- 建了个文件夹，已链接 -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/CSS/bushhouse.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+
 
 <body>
-        <!-- 导航栏 -->
-        <div id="header">
-            <nav>
-                <a href="{{ site.baseurl }}/">Home</a>
-                <a href="{{ site.baseurl }}/about">About</a>
-                <a href="{{ site.baseurl }}/search">Search</a>
-            </nav>
-        </div>
-
-
         <!-- 每个建筑页面的内容布局 -->
         <div id = "content">
             {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
         
             <div id="entrance">
                 <img src = "{{ page.image-url1 }}">
-                <p>{{ page.image-title1 }}</p>
+                <p class="title_text">{{ page.image-title1 }}</p>
             </div>
 
-            <p>{{ page.architecture }}</p>
+            <p class="body_text">{{ page.architecture }}</p>
                 
             <div id="statue">
                 <img src = "{{ page.image-url2 }}">
-                <p>{{ page.image-title2 }}</p>
+                <p class="title_text">{{ page.image-title2 }}</p>
             </div>
 
-            <p>{{ page.history }}</p>
+            <p class="body_text">{{ page.history }}</p>
 
             <div id="eagle">
                 <img src = "{{ page.image-url3 }}">
-                <p>{{ page.image-title3 }}</p>
+                <p class="title_text">{{ page.image-title3 }}</p>
             </div>
 
             <div id="bbc">
                 <img src = "{{ page.image-url4 }}">
-                <p>{{ page.image-title4 }} by Spudgun67 <a href="{{ licence_url4.url }}"> {{ page.licence4 }}</a></p>
+                <p class="title_text">{{ page.image-title4 }} by Spudgun67 <a href="{{ licence_url4.url }}"> {{ page.licence4 }}</a></p>
             </div>
 
-            <p>{{ page.function }}</p>
+            <p class="body_text">{{ page.function }}</p>
 
             <div id="courtyard">
                 <img src = "{{ page.image-url5 }}">
-                <p>{{ page.image-title5 }}</p>
+                <p class="title_text">{{ page.image-title5 }}</p>
             </div>
-    
+
+
+            <p>Reference:<br>
+            {{ page.reference }}
+            </p>
+
             <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags }}</p>
         </div>
 

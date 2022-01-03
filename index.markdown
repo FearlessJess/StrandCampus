@@ -19,6 +19,6 @@ layout: index
       <p class = "caption"><a href = "{{ building.url | relative_url }}">{{ building.title }}</a> by {{ building.creator }}</p>
       
       <!-- 加了每个版块的作者 -->
-    </div>
+  </div>
   {% endfor %}
 </div>
