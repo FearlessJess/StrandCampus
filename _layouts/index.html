@@ -1,13 +1,40 @@
 ---
-layout: default
 ---
 
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/CSS/A-index.css">
+</head>
 
 <body>
-            <!-- 首页预览部分 -->
-            <div class="content">  
+
+        <!-- 导航栏 -->
+        <div id="header">
+            <nav class="menu">
+                <ul>
+                    <li> <a href="{{ site.baseurl }}/">Home</a> </li>
+                    <li> 
+                        <a href="#">Buildings</a>
+                        <div class="sub">
+                            <ul>
+                                <li> <a href="{{ site.baseurl }}/buildings/Bush-House">Bush House</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/King's-Building">King's Building</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/Maughan-Library">Maughan Library</a></li>
+                                <li> <a href="{{ site.baseurl }}/buildings/Somerset-House-East-Wing">Somerset House East Wing</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="{{ site.baseurl }}/about">About</a></li>
+                    <li> <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
+        </div>
+
+        <!-- 首页预览部分 -->
+        <div class="content">  
             {{ content }}
             </div>  
+
 
 <!--和老师一样增加了copyright之类的尾注-->
         <div id = "footer">
