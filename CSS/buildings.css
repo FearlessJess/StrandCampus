@@ -22,6 +22,7 @@ nav{
     width   : auto;
 }
 
+/* nav bar button */
 .menu>ul>li>a {
     display: block;
     background-color: white;
@@ -36,7 +37,7 @@ nav{
     transition: all .3s ease-in-out;
 
 }
-
+/* nav bar button hover */
 .menu>ul>li:hover>a {
     background-color: rgb(220, 220, 220);
 }
@@ -71,6 +72,7 @@ nav{
     border-bottom: none;
 }
 
+/* dropdown menu */
 .sub>ul>li>a {
     display: block;
     background-color: black;
@@ -84,9 +86,11 @@ nav{
 
 }
 
+/* dropdown menu hover */
 .sub>ul>li>a:hover{
     background-color: grey;
 }
+
 
 a:link {
     color: black;
@@ -97,7 +101,7 @@ a:visited {
 }
 
 a:hover {
-    color: white;
+    color:gray;
 }
 
 
@@ -140,7 +144,7 @@ img {
 }
 
 .body_text{
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
