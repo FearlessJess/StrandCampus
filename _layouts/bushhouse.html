@@ -4,10 +4,9 @@ layout: default
 
 
 
-
 <body>
-        <!-- 每个建筑页面的内容布局 -->
-        <div class = "content">
+        <!-- individual page content -->
+        <div id = "content">
             <h1>{{ page.title }}</h1><br>
             {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
         
@@ -59,7 +58,7 @@ layout: default
             <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags }}</p>
         </div>
 
-        <!--和老师一样增加了copyright之类的尾注-->
+        <!--footer part-->
         <div id = "footer">
             <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
         </div>
