@@ -18,5 +18,4 @@ image-title5: The iron door of the Cell Room
 image-title6: Now the main research library of King's College London
 tags: research library, Maughan, round room, Cell Room, Weston Roon, public record office
 creator: Kehan Liu
-# 每个版块的作者
 ---
