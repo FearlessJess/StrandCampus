@@ -105,20 +105,30 @@ a:hover {
 }
 
 
-/* preview image */
+/* preview div */
 #gallery {
     margin: 0 auto;
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
 }
 
+
+/* preview image */
 .grid_cell {
     align-self: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    display: block;
 }
+
+
 
 @media (min-width: 1000px) {
     #gallery { 
-        grid-template-columns: repeat(2, 800px); 
+        grid-template-columns: repeat(2, 700px); 
     }
   }
 
@@ -131,17 +141,15 @@ a:hover {
 
 
 
+
+
+
 #introduction p {
     font-family: sans-serif;
 }
 
 
 
-/* preview image */
-.gallery_thumb{
-    width: 300px;
-    object-fit: cover;
-}
 
 
 #footer {
