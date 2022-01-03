@@ -6,7 +6,7 @@ layout: default
 
 <body>
         <!-- individual page content -->
-        <div id = "content">
+        <div class = "content">
             <h1>{{ page.title }}</h1><br>
             {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
         
@@ -16,6 +16,7 @@ layout: default
             </div>
 
             <br>
+            <h2>Architecture</h2>
             <p class="body_text">{{ page.architecture }}</p>
             
             <br><br>
@@ -25,6 +26,7 @@ layout: default
             </div>
 
             <br>
+            <h2>History</h2>
             <p class="body_text">{{ page.history }}</p>
 
             <br><br>
@@ -40,6 +42,7 @@ layout: default
             </div>
 
             <br><br>
+            <h2>Today</h2>
             <p class="body_text">{{ page.function }}</p>
 
             <br>
