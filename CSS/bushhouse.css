@@ -30,14 +30,8 @@ a:hover {
 
 
 
-
-
-
-
-
-
 #content {
-    position: relative;
+    position: absolute;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -47,11 +41,17 @@ a:hover {
 }
 
 
+.title_text{
+    text-align: center;
+}
+
+
 img {
     width: 300px;
     align-self: center;
-    padding-left:10%
 }
+
+
 
 
 
@@ -67,6 +67,9 @@ img {
         width: 650px;
     }
 }
+
+
+
 
 
 #footer {
