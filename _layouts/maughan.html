@@ -27,7 +27,7 @@ layout: default
             <img src = "{{ page.image-url6 }}" class = "image">
             <p class = "title_text">{{ page.image-title6 }} </p>
 
-            <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags }}</p>
+            <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
 
         </div>
 

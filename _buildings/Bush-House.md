@@ -25,6 +25,6 @@ licence4: CC BY-SA 4.0
 reference1: https://en.wikipedia.org/wiki/Bush_House
 reference2: https://www.kcl.ac.uk/aboutkings/orgstructure/ps/estates/real-estate/completed/bush-house/bush-house-history
 reference3: https://www.bbc.co.uk/historyofthebbc/buildings/bush-house 
-tags: bush, war, kingsway, broadcast, 2010s
+tags: bush war kingsway broadcast 2010s
 ---
 

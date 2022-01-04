@@ -16,7 +16,7 @@ image-url2:
 image-title2:
 image-url3:
 image-title3:
-tags: Somerset House East Wing, Somerset House, Law School,
+tags: Somerset.House.East.Wing Somerset.House Law.School
 ---
 
 
