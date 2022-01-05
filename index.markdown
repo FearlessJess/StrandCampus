@@ -5,7 +5,11 @@ layout: index
  
  <br /> <br />
 <div id= "introduction">
-<p>This is a simple historical archive about the buildings of King's Strand Campus, the biggest campus at King's in the heart of London. Brief history stories, architecture style and current function about these building can be found here, a good site for anyone who is interested in King's.</p>
+<!-- <p>This is a simple museum about the buildings of King's Strand Campus, the foundation campus at King's in the heart of London. Brief history stories, architecture style and current function about these building can be found here, a good site for anyone who is interested in King's and the Strand.</p><br>  ***Delete the text-->
+
+<p>MORE THAN A CAMPUS: PAST AND PRESENT </p><br>
+<p>Uncover the hidden London!<br>
+Start your exploration in the Strand campus, King's College London. </p>
 </div>
  <br />
 
