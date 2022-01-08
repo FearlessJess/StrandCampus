@@ -2,13 +2,25 @@ body {
     background-color: #ffffff;
 }
 
+/* line */
 
+#line
+{
+    display: line; 
+    position: fixed;   
+    height: 80px;
+    width: 100%;
+    margin-top: -1%;
+    background-color:white;
+}
 
 /* navigate bar */
+
+
 nav{
     position:fixed; /* fixed in browser */
     margin-left:0;
-    margin-top: 0;
+    margin-top: 10px;
     width:100%;
     font-family: sans-serif;
     font-size: larger;
