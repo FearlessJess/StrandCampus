@@ -6,7 +6,7 @@
 {
     display: line; 
     position: fixed;   
-    height: 100px;
+    height: 110px;
     width: 100%;
     margin-top: -1%;
     background-color:white;
@@ -197,15 +197,6 @@ h2{
     margin-right: 10%;
     line-height:2;
 }
-
-
-
-
-
-
-
-
-
 
 
 
