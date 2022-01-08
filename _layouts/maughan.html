@@ -9,9 +9,9 @@ layout: default
             <h1>{{ page.title }}</h1>
             <br/>
             <!-- individual page content -->
-            <h2>Architecture</h2>
             <img src = "{{ page.image-url1 }}" class = "image">
             <p class = "title_text">{{ page.image-title1 }} </p>
+            <h2>Architecture</h2>
             <p class = "body_text">{{ page.architecture }} </p>
             <br/>
             <h2>History</h2>
@@ -31,7 +31,7 @@ layout: default
             <p class = "title_text">{{ page.image-title6 }} </p>
 
             <br><br>
-            <ul>Reference
+            <ul class="reference">Reference
             <li>Banerjee, J., 2015. The Maughan Library, King's College London (formerly the Public Record Office) by Sir James Pennethorne. [online] Victorianweb.org. Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a> [Accessed 8 January 2022].</li>
             <li>Kcl.ac.uk. n.d. Maughan Library. [online] Available at: <a href="{{ page.reference2 }}">{{ page.reference2 }}</a>  [Accessed 8 January 2022].</li>
             <li>Kclsu.org. 2020. Ten interesting facts about King's. [online] Available at: <a href="{{ page.reference3 }}">{{ page.reference3 }}</a> [Accessed 8 January 2022].</li>
@@ -39,7 +39,7 @@ layout: default
             </ul>
             <br>
 
-            <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
+            <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
 
         </div>
 

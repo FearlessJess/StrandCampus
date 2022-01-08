@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Libre+Baskerville&display=swap');
 /* line */
 
+body {
+    background-color: #D6B883;
+}
+
 #line
 {
     display: line; 
@@ -175,17 +179,18 @@ img {
 h1{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;
-    font-size: 48px;
     font-weight: bold;
+    font-size: 48px;
+    color: #3A280E;
 }
 
 .title_text{
     text-align: center;
-    color: lightcoral;
+    color: #50360F;
     font-weight: bold;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
+    margin-top: 1%;
 }
 
 h2{

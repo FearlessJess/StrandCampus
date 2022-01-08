@@ -206,12 +206,18 @@ img:hover {
 #about{
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
-    margin: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2;
 }
 
 #search{
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
+}
+
+input{
+    font-family: 'Libre Baskerville', serif;
 }
 
 #search-container{
@@ -228,10 +234,9 @@ img:hover {
     color: gray;
     font-style: italic;
     font-weight: lighter;
-
-}
-
-#footer p {
     font-size: large;
     align-self: center;
+    position: center;
+    bottom: 0;
 }
+
