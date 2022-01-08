@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
 
+/* line */
+
+#line
+{
+    display: line; 
+    position: fixed;   
+    height: 100px;
+    width: 100%;
+    margin-top: -1%;
+    background-color:white;
+}
+
 /* navigate bar */
+
+
 nav{
     position:fixed; /* fixed in browser */
     margin-left:0;
-    margin-top: 0;
+    margin-top: 10px;
     width:100%;
     font-family: sans-serif;
     font-size: larger;
@@ -52,7 +66,7 @@ nav{
 
 /* nav bar button after hover */
 .menu>ul>li:hover>a {
-    background-color: #647e95d8; 
+    background-color: #8caac5;  
 }
 
 .sub {
@@ -101,13 +115,13 @@ nav{
     font-weight: bold;
     padding: 15px 20px;
     text-decoration: none;
-    transition: .3s ease-in-out;
+    transition: .1s ease-in-out;
 
 }
 
 /* dropdown menu button after hover */
 .sub>ul>li>a:hover{
-    background-color:#647e95d8; 
+    background-color:#8caac5;  
 }
 
 
@@ -122,6 +136,7 @@ a:visited {
 a:hover {
     color: rgb(99, 87, 87);
 }
+
 
 
 

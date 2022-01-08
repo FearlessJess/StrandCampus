@@ -8,7 +8,7 @@ body {
 {
     display: line; 
     position: fixed;   
-    height: 80px;
+    height: 100px;
     width: 100%;
     margin-top: -1%;
     background-color:white;
@@ -68,7 +68,7 @@ nav{
 
 /* nav bar button after hover */
 .menu>ul>li:hover>a {
-    background-color: #647e95d8; 
+    background-color: #8caac5;  
 }
 
 .sub {
@@ -117,13 +117,13 @@ nav{
     font-weight: bold;
     padding: 15px 20px;
     text-decoration: none;
-    transition: .3s ease-in-out;
+    transition: .1s ease-in-out;
 
 }
 
 /* dropdown menu button after hover */
 .sub>ul>li>a:hover{
-    background-color:#647e95d8; 
+    background-color:#8caac5;  
 }
 
 
@@ -144,14 +144,13 @@ a:hover {
 
 /* homepage introduction text */
 #introduction p {
+    margin-top: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     margin-left: 10%;
     margin-right: 10%;
     inline-size: auto;
 }
-
-
 
 
 /* preview div */
