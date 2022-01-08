@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Libre+Baskerville&display=swap');
 /* line */
 
 #line
@@ -20,7 +20,6 @@ nav{
     margin-left:0;
     margin-top: 10px;
     width:100%;
-    font-family: sans-serif;
     font-size: larger;
     z-index: 1000;
 }
@@ -50,8 +49,8 @@ nav{
     text-align: center;
     background-color: #314455;
     color           : white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size  : 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size  : 24px;
     font-weight: bold;
     line-height: 45px;
     min-width: 200px;
@@ -108,11 +107,10 @@ nav{
     display: block;
     background-color: #314455;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px;
-    font-weight: bold;
     padding: 15px 20px;
     text-decoration: none;
     transition: .1s ease-in-out;
@@ -171,34 +169,50 @@ img {
 }
 
 
+
 /* text */
 
 h1{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
+    font-size: 48px;
+    font-weight: bold;
 }
-
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center
-} /* sub-title */
 
 .title_text{
     text-align: center;
     color: lightcoral;
     font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
 }
 
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 32px;
+} /* sub-title */
+
+
+
 .body_text{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
     margin-left: 10%;
     margin-right: 10%;
     line-height:2;
 }
 
+.tag{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
 
+
+.reference{
+    font-family: 'Cormorant Garamond', serif;
+}
 
 
 

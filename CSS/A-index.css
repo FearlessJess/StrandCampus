@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Libre+Baskerville&display=swap');
+
 body {
-    background-color: #ffffff;
+    background-color: #D6B883;
 }
 
 /* line */
@@ -52,9 +55,8 @@ nav{
     text-align: center;
     background-color: #314455;
     color           : white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size  : 20px;
-    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size  : 24px;
     line-height: 45px;
     min-width: 200px;
     padding: 0 20px;
@@ -111,11 +113,10 @@ nav{
     display: block;
     background-color: #314455;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 20px;
-    font-weight: bold;
     padding: 15px 20px;
     text-decoration: none;
     transition: .1s ease-in-out;
@@ -146,7 +147,7 @@ a:hover {
 /* homepage introduction text */
 #introduction p {
     margin-top: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 24px;
     margin-left: 10%;
     margin-right: 10%;
@@ -195,6 +196,29 @@ a:hover {
 img:hover {
     box-shadow: 0px 8px 16px 0px gray;
 }
+
+.caption{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#about{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    margin: 10%;
+}
+
+#search{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+}
+
+#search-container{
+    margin-left: 43%;
+    margin-right: 40%;
+}
+
 
 
 

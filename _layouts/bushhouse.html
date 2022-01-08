@@ -7,6 +7,7 @@ layout: default
 <body>
         <!-- individual page content -->
         <div class = "content">
+            <br>
             <h1>{{ page.title }}</h1><br>
             {% assign licence_url4 = site.data.licences | find: "licence", page.licence4 %} <!-- Only for image4 -->
         
@@ -52,13 +53,13 @@ layout: default
             </div>
 
             <br><br>
-            <ul>Reference
+            <ul class="reference">Reference
             <li>Wikipedia. (n.d.). Bush House. Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a> [Accessed 2 Jan 2022]</li>
             <li>King's College London. (n.d.). The history of Bush House. Available at: <a href="{{ page.reference2 }}">{{ page.reference2 }}</a> [Accessed 2 Jan 2022]</li>
             <li>BBC.(n.d.). Bush House: The iconic home of BBC World Service. Available at: <a href="{{ page.reference3 }}">{{ page.reference3 }}</a> [Accessed 2 Jan 2022]</li>
             </ul>
             <br>
-            <p><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
+            <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
         </div>
 
         <!--footer part-->
