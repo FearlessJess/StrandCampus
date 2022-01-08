@@ -16,6 +16,10 @@ image-title3: Weston Room
 image-title4: Inside Cell Room
 image-title5: The iron door of the Cell Room
 image-title6: Now the main research library of King's College London
+reference1: https://victorianweb.org/art/architecture/pennethorne/6.html
+reference2: https://www.kcl.ac.uk/visit/maughan-library
+reference3: https://www.kclsu.org/news/article/6015/Ten-interesting-facts-about-Kings/
+reference4: https://kingscollections.org/exhibitions/specialcollections/imperial-designs/imperial-designs-of-architecture/the-maughan-library
 tags: research.library Maughan round Cell Weston public.record.office
 creator: Kehan Liu
 ---
