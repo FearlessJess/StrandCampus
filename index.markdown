@@ -3,7 +3,7 @@ title: Buildings at Strand Campus, King's College London
 layout: index
 ---
  
- <br /> <br />
+ <br /> <br /> <br /> <br />
 <div id= "introduction">
 <!-- <p>This is a simple museum about the buildings of King's Strand Campus, the foundation campus at King's in the heart of London. Brief history stories, architecture style and current function about these building can be found here, a good site for anyone who is interested in King's and the Strand.</p><br>  ***Delete the text-->
 
@@ -11,7 +11,7 @@ layout: index
 <p>Uncover the hidden London!<br>
 Start your exploration in the Strand campus, King's College London. </p>
 </div>
- <br />
+
 
 
 <div id = "gallery">
