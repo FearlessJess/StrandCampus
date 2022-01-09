@@ -1,7 +1,6 @@
 ---
 title: King's Building
 layout: King's
-image-url1: https://live.staticflickr.com/65535/51789143490_d13d8f5d3c_h.jpg
 creator: Wen Bai
 history: King's Building, originally known as the College Building, was designed by Sir Robert Smirke at the College's founding in 1829. It was constructed between 1829 and 1831 on land provided by the Government to King's College to complete the riverbank frontage of Somerset House.In 1828-1829, a group of prominent politicians, churchmen, and others founded King's College London. They desired a Church of England alternative to University College London (UCL, founded in 1826). King's and UCL were the two founding colleges of the University of London founded in 1836.As the founding building, King’s building has a direct view of the Thames and is located halfway between the Houses of Parliament and St Paul's Cathedral, close to Somerset House 1 and the Courtauld Institute of Art, and across the road from the Royal Courts of Justice.
 image-url2:
