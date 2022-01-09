@@ -199,8 +199,17 @@ h2{
     font-size: 32px;
 } /* sub-title */
 
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+    margin-left:10%;
+    margin-top:5%;
+    font-weight:bolder;
+    font-size: 26px;
 
+} /* sub-title */
 
+/* text */
 .body_text{
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
@@ -221,6 +230,8 @@ h2{
 
 
 
+
+/* footer */
 
 #footer {
     margin-top: 5%;

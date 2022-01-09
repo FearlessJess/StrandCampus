@@ -9,47 +9,79 @@ layout: default
             <h1>{{ page.title }}</h1>
             <br />
 
-            <div id="cover">
+            <div id="king's_cover"><br/>
                 <img src = "{{ page.image-url1 }}" = "king's">
+                <p class = "title_text">{{ page.image-title1 }}</p> 
             </div>
-           
-            <div id=Kings-history>
-                <img src = "{{ page.image-url2 }}" id = "king's">
-                <p class = "title_text">{{ page.image-title1 }}></p> 
-                <h2> History </h2>
-                <p class="body_text"> {{ page.history}}</p>
-            </div>
-
-
-            <h2> Architecture </h2>
-            {{ page.architecture }}
-
-            <h3> Strand Entrance</h3>
-            {{ page.Strand-Entrance }}
-            
-            <h3> Old Entrance Hall</h3>
-            <a href=" https://kingscollections.org/exhibitions/archives/the-mond-bequest/mond-bequest-sculpture/sappho">Sappho by Ferdinand Seeboeck (Vienna 1864-Rome 1952)
-            </a>
             <br/>
-            <a href=" https://kingscollections.org/exhibitions/archives/the-mond-bequest/mond-bequest-sculpture/sophocles">   Sophocles by Constantin Dausch (Bad Waldsee 1841-Rome 1908)</a>
-            <p>{{ page.Old-Entrance-Hall }}<p/>
 
-        
-            <h3> Great Hall</h3>
-            {{ page.Great-Hall }}
+            <div id ="Kings_history">
+                <h2> History </h2>
+                <p class="body_text"> {{ page.history}}</p><br/>
+                <img src = "{{ page.image-url2 }}" id = "interior-entrance"><br/>
+                <p class = "title_text">{{ page.image-title2 }}</p> 
+            </div>
+            <br/><br/>
 
-            <h3> The Chapel</h3>
-            {{ page.Collge-Chapel }}
+            <div id="Architecture ">
+            <h2> Strand Entrance</h3>
+            <p class="body_text"> {{ page.Strand-Entrance }}</p><br/>
+            <img src = "{{ page.image-url3 }}" id = "facade"><br/>
+                <p class = "title_text">{{ page.image-title3 }}</p> 
+                <br/><br/>
+    
+            <h2> Old Entrance Hall</h3>
+                <p class="body_text"> {{ page.Old-Entrance-Hall1}}</p>
+                <p>{{ page.Old-Entrance-Hall }}</p><br/>
+                <img src = "{{ page.image-url4 }}" id = "sappho"><br/>
+                <p class = "title_text">{{ page.image-title4 }}</p> <br/>
+                <img src = "{{ page.image-url5 }}" id = "sophocles"><br/>
+                <p class = "title_text">{{ page.image-title5 }}</p> <br/>
+                <p class="body_text"> {{ page.Old-Entrance-Hall2 }}</p><br/>
+                <img src = "{{ page.image-url6 }}" id = "reggie"><br/>
+                <p class = "title_text">{{ page.image-title6 }}</p> 
+                <br/><br/>
 
-            <h3> Council Room </h3>
-            {{ page.Council-Room }}
+            <h2> Great Hall</h3>
+                <p class="body_text"> {{ page.Great-Hall }}</p>
+                <br/><br/>
+            
+            <h2> The Chapel</h3>
+               <p class="body_text"> {{ page.Chapel1 }} </p> <br/>
+                <img src = "{{ page.image-url7 }}" id = "chapel"><br/>
+                <p class = "title_text">{{ page.image-title7 }}</p> 
+                <p class="body_text"> {{ page.Chapel2 }} </p> <br/>
+                <img src = "{{ page.image-url8 }}" id = "chapel"><br/>
+                <p class = "title_text">{{ page.image-title8 }}</p> 
+                <p class="body_text"> {{ page.Chapel3 }} </p> 
+                <br/><br/>
 
+               
+            <h2> Council Room </h3>
+                <p class="body_text">  {{ page.Council-Room }}</p>
+                <img src = "{{ page.image-url9 }}" id = "Council"><br/>
+                <p class = "title_text">{{ page.image-title9 }}</p> 
+
+            </div>
+
+
+             <br><br>
+            <ul class="reference">Reference
+            <li>Kingscollections.org. n.d. King's Collections : Online Exhibitions : Sophocles by Constantin Dausch. [online] Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a>  [Accessed 8 January 2022].</li>
+            <li>Kingscollections.org. n.d. King's Collections : Online Exhibitions : Sappho by Ferdinand Seeboeck. [online] Available at: <a href="{{ page.reference2 }}">{{ page.reference2 }}</a>  [Accessed 8 January 2022].</li>
+            <li>Kcl.ac.uk. n.d. Visiting the College Chapel. [online] Available at: <a href="{{ page.reference3 }}">{{ page.reference3 }}</a>  [Accessed 8 January 2022].</li>
+            <li>Kcl.ac.uk. n.d. King's Building. [online] Available at: <a href="{{ page.reference4 }}">{{ page.reference4 }}</a>  [Accessed 8 January 2022].</li>
+            <li>Kcl.ac.uk. n.d. reggie-is-stolen-the-early-years-1926-1938. [online] Available at: <a href="{{ page.reference5 }}">{{ page.reference5 }}</a> [Accessed 8 January 2022].</li>
+            </ul>
+            <br>
             <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
 
         </div>
         
 
-        <div id = "footer">
-            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
-        </div>
+       <!--footer part-->
+       <div id = "footer">
+        <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
+    </div>
+
 </body>

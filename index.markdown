@@ -8,7 +8,7 @@ layout: index
 <!-- introduction -->
 <div id= "introduction">
 <p>MORE THAN A CAMPUS: PAST AND PRESENT </p><br />            
-<p>Uncover the hidden London!<br>
+<p>Uncover the hidden London!<br><br>
 Start your exploration in the Strand campus, King's College London. </p>
 </div>
 
