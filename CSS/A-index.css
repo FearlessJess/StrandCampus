@@ -142,8 +142,6 @@ a:hover {
 }
 
 
-
-
 /* homepage introduction text */
 #introduction p {
     margin-top: 60px;
@@ -157,8 +155,18 @@ a:hover {
 
 
 /* preview div */
+.gallery_container>ul{
+    position: relative;
+    width:1300px;
+    height: 1300px;
+}
+
 #gallery {
-    margin: 0 auto;
+    position: absolute;
+    margin-top: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: grid;
     grid-gap: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -169,13 +177,12 @@ a:hover {
 /* preview loop part */
 .grid_cell {
     align-self: baseline;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0%;
+    margin-right: 20%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     display: block;
 }
-
 
 @media (min-width: 1000px) {
     #gallery { 
@@ -255,16 +262,26 @@ input{
     border-radius:20px;
 }
 
+.footer{
+    position:relative;
+    margin-top: 10%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 10%;
 
-#footer {
-    margin-top: 5%;
+}
+
+.footer>ul {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align:center;
-    color: gray;
+    color: rgb(0, 0, 0);
     font-style: italic;
-    font-weight: lighter;
+    font-weight:normal;
     font-size: large;
     align-self: center;
-    position: center;
-    bottom: 0;
+    position: absolute;
+    bottom:0;
 }
 
