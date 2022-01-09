@@ -210,7 +210,7 @@ img:hover {
     font-size: 24px;
     font-weight: bold;
 }
-
+/* about page */
 #about{
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
@@ -219,6 +219,8 @@ img:hover {
     line-height: 2;
 }
 
+/* search page */
+
 #search{
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
@@ -226,12 +228,35 @@ img:hover {
     text-align: center;
 }
 
-search-input{
-
-    color:rgba(128, 128, 128, 0.667);
-    font-size:20px;
+.SEARCH
+{
+position:relative;
+margin-top:5%;
+margin-right:20%;
+margin-left:20%;
 
 }
+.SEARCH>ul{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+
+}
+
+.SEARCH>ul>li{
+    margin-top: 1%;
+    position:absolute;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    line-height:2;
+    color: grey;
+    display: block;
+    background-color:rgba(255, 255, 255, 0.633);
+    width: 500px;
+    border-radius:20px;
+}
+
 
 input{
     font-family: 'Libre Baskerville', serif;
@@ -244,24 +269,19 @@ input{
 
 }
 
-#search-container{
+search-input{
 
-    margin-left: 15%;
-    margin-right:20%;
-    
+    color:rgba(128, 128, 128, 0.667);
+    font-size:20px;
+
 }
 
-#results-container{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 20px;
-    line-height:2;
-    color: grey;
-    display: block;
-    background-color:rgba(255, 255, 255, 0.633);
-    width: 500px;
-    border-radius:20px;
-}
 
+
+
+
+
+/* front page footer */
 .footer{
     position:relative;
     margin-top: 10%;
