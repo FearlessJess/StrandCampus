@@ -241,6 +241,7 @@ margin-left:20%;
     left: 50%;
     transform: translate(-50%, -50%);
     position:absolute;
+    margin-bottom: 10%;;
 
 }
 
@@ -255,6 +256,7 @@ margin-left:20%;
     background-color:rgba(255, 255, 255, 0.633);
     width: 500px;
     border-radius:20px;
+    margin-bottom: 10%;
 }
 
 
