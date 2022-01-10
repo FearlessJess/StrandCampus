@@ -139,7 +139,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(99, 87, 87);
+    color:rgb(184, 184, 184);
 }
 
 
@@ -227,6 +227,7 @@ img:hover {
     font-size: 24px;
     margin-top: 10%;
     text-align: center;
+    line-height:2;
 }
 
 .SEARCH

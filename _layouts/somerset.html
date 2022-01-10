@@ -8,38 +8,58 @@ layout: default
         <br>
         <h1>{{ page.title }}</h1>
             <br />
-            <img src = "{{ page.image-url1 }}" id = "somerset cover">
 
-            <div id="history">
-            <h2> History </h2>
-            {{ page.history}}
+            <div class="somerset_cover"><br/>
+                <img src = "{{ page.image-url1 }}">
+                <p class = "title_text">{{ page.image-title1 }}</p> 
+                </div>
+                <br/>
+    
+                <div id ="somerset_history">
+                    <h2> History </h2>
+                    <p class="body_text"> {{ page.history}}</p><br/>
+                    <img src = "{{ page.image-url2 }}" id = "somerset_entrance"><br/>
+                    <p class = "title_text">{{ page.image-title2 }}</p> 
+                </div>
+                <br/><br/>
+    
+                <div id="Architecture ">
+                <h2> East Wing </h3>
+                <p class="body_text"> {{ page.The-East-Wing }}</p><br/>
+                <img src = "{{ page.image-url3 }}" id = "eastwing_door"><br/>
+                    <p class = "title_text">{{ page.image-title3 }}</p> 
+                    <br/><br/>
+        
+                <h2> Archaeology Room</h3>
+                    <p class="body_text"> {{ page.The-Archaeology-Room1}}</p>
+                    <img src = "{{ page.image-url4 }}" id = "sappho"><br/>
+                    <p class = "title_text">{{ page.image-title4 }}</p> <br/>
 
-            <h2> Architecutre </h2>
-            {{ page.architecture}}
-
-            <h3> The East Wing</h3>
-            {{ page.The-East-Wing}}
-
-            <h3> The Archaeology Room</h3>
-            {{ page.The-Archaeology-Room }}
-
-            <h3> Current Function</h3>
-            {{ page.function }}
-
-            <h2> Current Function</h2>
-            {{ function }}
-
-            <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
-    </div>
-
+                    <p class="body_text"> {{ page.The-Archaeology-Room2 }}</p><br/>
+                    <img src = "{{ page.image-url5 }}" id = "sophocles"><br/>
+                    <p class = "title_text">{{ page.image-title5 }}</p> <br/>
+                    
+                    <br/><br/>
+    
+                <h2> Today </h3>
+                    <p class="body_text"> {{ page.Today }}</p>
+                    <img src = "{{ page.image-url6 }}" id = "Law_school"><br/>
+                    <p class = "title_text">{{ page.image-title6 }}</p> 
+                    <br/><br/>
+    
+                </div>
+       
     <br><br>
     <ul class="reference">Reference
-    <li>Banerjee, J., 2015. The Maughan Library, King's College London (formerly the Public Record Office) by Sir James Pennethorne. [online] Victorianweb.org. Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a> [Accessed 8 January 2022].</li>
-    <li>Kcl.ac.uk. n.d. Maughan Library. [online] Available at: <a href="{{ page.reference2 }}">{{ page.reference2 }}</a>  [Accessed 8 January 2022].</li>
-    <li>Kclsu.org. 2020. Ten interesting facts about King's. [online] Available at: <a href="{{ page.reference3 }}">{{ page.reference3 }}</a> [Accessed 8 January 2022].</li>
-    <li>Kingscollections.org. n.d. King's Collections : Online Exhibitions : The Maughan Library. [online] Available at: <a href="{{ page.reference4 }}">{{ page.reference4 }}</a>  [Accessed 8 January 2022].</li>
+    <li>Kcl.ac.uk. n.d  COMPLETED PROJECTS: Somerset House East Wing. [online] Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a> [Accessed 8 January 2022].</li>
+    <li>Kcl.ac.uk. n.d. EVENTS: THE ROYAL ACADEMY IN OLD SOMERSET HOUSE [online] Available at: <a href="{{ page.reference2 }}">{{ page.reference2 }}</a> [Accessed 8 January 2022].</li>
+    <li>Kcl.ac.uk. n.d. Somerset House East Wing. [online] Available at: <a href="{{ page.reference3 }}">{{ page.reference3 }}</a>  [Accessed 8 January 2022].</li>
+    
     </ul>
     <br>
+    <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
+</div>
+
 
    <!--footer-->
         <div id = "footer">
