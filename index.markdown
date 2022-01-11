@@ -16,7 +16,7 @@ Start your exploration in the Strand campus, King's College London. </p>
 <div class="gallery_container">
 <ul id = "gallery">
 {% assign sorted_buildings = site.buildings | sort: "title" %}
-    {% for building in site.buildings %}
+    {% for building in sorted_buildings %}
       {% assign author = site.data.authors | find: "name", building.creator %}       
 <div class = "grid_cell">
                     <a href = "{{ building.url | relative_url }}"><img src="{{ building.image-url1 }}" title="{{ building.title }}" class="gallery_thumb"></a>
