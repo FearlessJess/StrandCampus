@@ -218,6 +218,15 @@ h3{
     line-height:2;
 }
 
+.italic{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height:1.5;
+    font-style: italic;
+}
+
 .tag{
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
