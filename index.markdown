@@ -13,8 +13,8 @@ Start your exploration in the Strand campus, King's College London. </p>
 </div>
 
 <!-- preview part -->
-<div class="gallery_container">
-<ul id = "gallery">
+<div id = "wrapper">
+<div id = "gallery">
 {% assign sorted_buildings = site.buildings | sort: "title" %}
     {% for building in sorted_buildings %}
       {% assign author = site.data.authors | find: "name", building.creator %}       
@@ -23,15 +23,16 @@ Start your exploration in the Strand campus, King's College London. </p>
                     <p class = "caption"><a href = "{{ building.url | relative_url }}">{{ building.title }}</a> by <a href = "{{ author.homepage }}">{{ building.creator }}</a></p>                    </div>
                     {% endfor %}
                     <br/>
-                    </ul>
-                    </div>    
+                    </div>
+   
 
 <!-- footer -->       
 <div class = "footer">
 <ul id= "footer_text">
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students in 2021</p><br/><br/>
 </ul>
 </div> 
+</div>
                     
 

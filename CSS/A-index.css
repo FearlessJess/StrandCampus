@@ -157,34 +157,31 @@ a:hover {
 
 
 /* preview div */
-.gallery_container>ul{
-    position: relative;
-    width:1300px;
-    height: 1300px;
+#wrapper {
+    max-width: 1500px;
+    margin: auto;
 }
 
+
 #gallery {
-    position: absolute;
-    margin-top: 700px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     text-align: center;
+    margin: 0 auto;
+    position: relative;
 }
 
 
 /* preview loop part */
 .grid_cell {
     align-self: baseline;
-    margin-left: 0%;
-    margin-right: 20%;
-    margin-top: 10%;
-    margin-bottom: 0%;
+    margin: 10%;
     display: block;
 }
+
+
+
 
 @media (min-width: 1000px) {
     #gallery { 
@@ -196,11 +193,14 @@ a:hover {
 
 /* preview image */
 .gallery_thumb {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     border-radius:20px;
 }
+
+
+
 
 /* preview image after hover */
 img:hover {

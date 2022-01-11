@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<body>   
+        
+        <div class = "content">
+            <br/>
+            <h1>{{ page.title }}</h1>
+            <br/>
+            <!-- individual page content -->
+            
+            <img src = "{{ page.image-url1 }}" class = "image">
+            <p class = "title_text">{{ page.image-title1 }} </p>
+            <h2>History</h2>
+
+            <br/>
+            <br><br>
+            <ul class="reference">Reference
+            <li>Banerjee, J., 2015. The Maughan Library, King's College London (formerly the Public Record Office) by Sir James Pennethorne. [online] Victorianweb.org. Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a> [Accessed 8 January 2022].</li>
+            <li>Kcl.ac.uk. n.d. Maughan Library. [online] Available at: <a href="{{ page.reference2 }}">{{ page.reference2 }}</a>  [Accessed 8 January 2022].</li>
+            <li>Kclsu.org. 2020. Ten interesting facts about King's. [online] Available at: <a href="{{ page.reference3 }}">{{ page.reference3 }}</a> [Accessed 8 January 2022].</li>
+            <li>Kingscollections.org. n.d. King's Collections : Online Exhibitions : The Maughan Library. [online] Available at: <a href="{{ page.reference4 }}">{{ page.reference4 }}</a>  [Accessed 8 January 2022].</li>
+            </ul>
+            <br>
+
+            <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
+
+        </div>
+
+        <!--footer-->
+        <div id = "footer">
+            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
+        </div>
+</body>
