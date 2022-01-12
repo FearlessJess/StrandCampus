@@ -9,6 +9,7 @@ url: "https://more-than-a-campus-strand.netlify.app/" # the base hostname & prot
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 collections:
   buildings:
     output: true
