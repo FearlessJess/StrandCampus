@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+
+<body>
+    <!-- individual page content -->
+    <div class = "content">
+        <br>
+        <h1>{{ page.title }}</h1><br>
+    
+        <br>
+        <div id="station">
+            <img src = "{{ page.image-url1 }}" title="{{ page.image-title1 }}">
+            <p class="title_text">{{ page.image-title1 }}</p>
+        </div>
+
+        <br>
+        <h2>Architecture</h2>
+        <p class="body_text">{{ page.architecture }}</p>
+
+        <br>
+        <h2>History</h2>
+        <p class="body_text">{{ page.history }}</p>
+
+        <h2></h2>
+        <p class="body_text">{{ page.function }}</p>
+
+
+
+        <br><br>
+        <ul class="reference">Reference
+        <li>Boudry, M., 2020. ALDWYCH: A NOT SO ABANDONED STATION JUST BELOW US. Available at: <a href="{{ page.reference1 }}">{{ page.reference1 }}</a> [Accessed 10 Jan 2022]</li>
+        </ul>
+        <br>
+        <p class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Tags: {{ page.tags | join: ", " }}</p>
+    </div>
+
+
+
+
+    <!--footer part-->
+    <div id = "footer">
+        <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students</a> in 2021</p>
+    </div>
+
+</body>
