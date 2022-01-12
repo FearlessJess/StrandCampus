@@ -4,7 +4,7 @@ email: wen.bai@kcl.ac.uk, danlin.jiang@kcl.ac.uk, kehan.liu@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Introduction to the history, architectural facts and current functionality of the buildings at Strand Campus, King's College London.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://more-than-a-campus-strand.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
