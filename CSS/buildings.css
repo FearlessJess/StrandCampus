@@ -249,8 +249,12 @@ h3{
 
 }
 
-
-
+/* link css */
+a:link{ 
+    font:12px; 
+    color: #003366; 
+    text-decoration: none; 
+}
 
 
 /* footer */
