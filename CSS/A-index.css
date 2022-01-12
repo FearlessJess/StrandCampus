@@ -222,6 +222,14 @@ img:hover {
     line-height: 2;
 }
 
+.about_text{
+    box-shadow: 0px 8px 16px 0px gray;
+    border-radius:20px;
+    padding: 2px;
+    margin: 3%;
+}
+
+
 /* search page */
 
 #search{
