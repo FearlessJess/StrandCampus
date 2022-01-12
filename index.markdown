@@ -29,7 +29,7 @@ Start your exploration in the Strand campus, King's College London. </p>
 <!-- footer -->       
 <div class = "footer">
 <ul id= "footer_text">
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for learning purposes by KCL students in 2021</p><br/><br/>
 </ul>
 </div> 
